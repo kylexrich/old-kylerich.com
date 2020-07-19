@@ -1,6 +1,11 @@
-/*//////////// custom styles for about-me title section ////////////*/
+/*//////////// custom styles for about-me ////////////*/
 
 /* for text beside about-me photo */
 .about-me-title-text {
     padding-top: 8%
+}
+
+/* for personal details */
+.personal-details-box {
+    max-width: 58% !important;
 }
