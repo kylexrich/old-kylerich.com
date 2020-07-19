@@ -1,1 +1,6 @@
-/* Add here all your CSS customizations */
+/*//////////// custom styles for about-me title section ////////////*/
+
+/* for text beside about-me photo */
+.about-me-title-text {
+    padding-top: 8%
+}
