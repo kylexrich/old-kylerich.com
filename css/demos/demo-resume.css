@@ -479,6 +479,12 @@ section.section {
 .custom-social-icons li.social-icons-facebook a {
 	background: #3b5a9a;
 }
+.custom-social-icons li.social-icons-linkedin a {
+	background: #0e76a8;
+}
+.custom-social-icons li.social-icons-email a {
+	background: #1490df;
+}
 .custom-social-icons li.social-icons-twitter a {
 	background: #1aa9e1;
 }
