@@ -9,3 +9,7 @@
 .personal-details-box {
     max-width: 58% !important;
 }
+
+.exp-tabs {
+    justify-content: left !important;
+}
