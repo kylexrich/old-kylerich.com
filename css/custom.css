@@ -29,3 +29,12 @@
 .interests-title {
     margin-bottom: 30px !important;
 }
+
+/*//////////// custom styles for education ////////////*/
+.button-margin{
+    margin-top: 10px;
+}
+
+.custom-box-w-btn {
+    padding: 35px 45px !important;
+}
