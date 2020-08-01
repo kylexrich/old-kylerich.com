@@ -13,3 +13,15 @@
 .exp-tabs {
     justify-content: left !important;
 }
+
+
+/*//////////// custom styles for interests ////////////*/
+.custom-padding-4 {
+	padding: 32px 36.8px !important;
+	padding: 2rem 2.3rem !important;
+}
+
+.custom-primary-font {
+    text-align: center;
+    font-size: 25px !important;
+}
