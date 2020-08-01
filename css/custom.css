@@ -13,3 +13,28 @@
 .exp-tabs {
     justify-content: left !important;
 }
+
+
+/*//////////// custom styles for interests ////////////*/
+.custom-padding-4 {
+	padding: 32px 36.8px !important;
+	padding: 2rem 2.3rem !important;
+}
+
+.custom-primary-font {
+    text-align: center;
+    font-size: 25px !important;
+}
+
+.interests-title {
+    margin-bottom: 30px !important;
+}
+
+/*//////////// custom styles for education ////////////*/
+.button-margin{
+    margin-top: 10px;
+}
+
+.custom-box-w-btn {
+    padding: 35px 45px !important;
+}

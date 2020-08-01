@@ -12001,7 +12001,7 @@ html.boxed .slider-container {
 	padding: 15px 30px;
 	background: none;
 	border: 0;
-	border-bottom: 3px solid #eee;
+	border-bottom: 3px solid rgb(184, 184, 184);
 	border-radius: 0;
 	color: #777;
 	font-size: 16px;
