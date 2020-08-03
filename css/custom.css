@@ -38,3 +38,8 @@
 .custom-box-w-btn {
     padding: 35px 45px !important;
 }
+
+.contact-bg-x{
+    background: url(/img/demos/resume/contact/contact-bg-1.jpg) !important;
+    background-size: cover !important;
+}
