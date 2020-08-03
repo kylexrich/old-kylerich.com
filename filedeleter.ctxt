@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=filedeleter
+comment1.params=
+comment1.target=void\ run()
+comment2.params=fr
+comment2.target=void\ loadSafeFiles(edu.duke.FileResource)
+comment3.params=dir
+comment3.target=void\ deleteFiles(edu.duke.DirectoryResource)
+numComments=4
