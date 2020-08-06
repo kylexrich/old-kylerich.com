@@ -897,7 +897,7 @@ Theme Version:	8.0.0
 
 .badge-dark {
 	background-color: #212529;
-	color: #FFF;
+	color: #FFF !important;
 }
 
 .badge.badge-xs {
