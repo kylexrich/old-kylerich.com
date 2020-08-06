@@ -53,3 +53,50 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+
+/*STYLE SWITHCER
+
+- Skin Colours -
+Primary #FDD55C
+Secondary #ecf1f7
+Tertiary #403f3d
+Quaternary #1f1e1c
+
+
+- Things you need to replace -
+Primary #FDD55C
+*/
+
+/*
+
+#header.header-floating-icons .header-nav-main nav > ul > li > a:after {
+	background: #FDD55C !important;
+}
+
+.custom-text-color-3{
+    color: black !important;
+}
+
+.custom-nav-sort.nav > li.active > a, .custom-nav-sort.nav > li:hover > a {
+    background: #FDD55C !important;
+    border-color: #FDD55C !important;
+}
+
+.btn-outline.btn-warning:hover, .btn-outline.btn-warning.hover {
+    color: #FFF !important;
+    background-color: #FDD55C !important;
+    border-color: #FDD55C !important;
+}
+
+.btn-outline.btn-warning {
+    color: #FDD55C !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: #FDD55C !important;
+}
+
+.custom-bg-color-1 {
+	background: #f4f9ff !important;
+}
+/*
