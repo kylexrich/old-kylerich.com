@@ -83,19 +83,6 @@ Primary #FDD55C
     border-color: #FDD55C !important;
 }
 
-.btn-outline.btn-warning:hover, .btn-outline.btn-warning.hover {
-    color: #FFF !important;
-    background-color: #FDD55C !important;
-    border-color: #FDD55C !important;
-}
-
-.btn-outline.btn-warning {
-    color: #FDD55C !important;
-    background-color: transparent !important;
-    background-image: none !important;
-    border-color: #FDD55C !important;
-}
-
 .custom-bg-color-1 {
 	background: #f4f9ff !important;
 }
