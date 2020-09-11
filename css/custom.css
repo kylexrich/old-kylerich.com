@@ -35,6 +35,10 @@
     margin-top: 10px;
 }
 
+html .btn-outline.btn-primary:hover, html .btn-outline.btn-primary.hover {
+    color: #000 !important;
+}
+
 .custom-box-w-btn {
     padding: 35px 45px !important;
 }
