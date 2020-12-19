@@ -822,7 +822,7 @@
 											<div class="form-control-custom">
 												<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" placeholder="Message*" id="message" required="" aria-required="true"></textarea>
 											</div>
-											<input type="submit" data-sitekey="6Lfb_wwaAAAAAKjQOXCRJyH6Eb3EWxgtFuL-50iB" class="g-recaptcha btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="Submit" />
+											<input type="submit" data-sitekey="6Lfb_wwaAAAAAKjQOXCRJyH6Eb3EWxgtFuL-50iB" data-callback='onSubmit' data-action='submit' class="g-recaptcha btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="Submit" />
 										</div>
 									</form>
 
@@ -960,7 +960,11 @@
 
 		<!-- Captcha -->
 		<script src="https://www.google.com/recaptcha/api.js"></script>
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<script>
+			function onSubmit(token) {
+			  document.getElementById("demo-form").submit();
+			}
+		</script>
 
 		<!-- STYLE SWITCHER
 		<script src="vendor/jquery.cookie/jquery.cookie.js"></script>
