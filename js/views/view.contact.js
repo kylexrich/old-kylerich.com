@@ -85,7 +85,6 @@ Theme Version:	8.0.0
 							.removeClass('has-danger')
 							.find('label.error')
 							.remove();
-
 						if (($messageSuccess.offset().top - 80) < $(window).scrollTop()) {
 							$('html, body').animate({
 								scrollTop: $messageSuccess.offset().top - 80

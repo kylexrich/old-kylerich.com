@@ -25,6 +25,25 @@ $subject = ( isset($_POST['subject']) ) ? $_POST['subject'] : 'Define subject in
 
 $message = '';
 
+$url = 'https://www.google.com/recaptcha/api/siteverify';
+$data = array(
+	'secret' => '6LcOqU4UAAAAAH9EPZCS1CQiegGzhVoSpPlVRYH_',
+	'response' => $_POST["g-recaptcha-response"]
+);
+$options = array(
+	'http' => array (
+		'method' => 'POST',
+		'content' => http_build_query($data)
+	)
+);
+$context  = stream_context_create($options);
+$verify = file_get_contents($url, false, $context);
+$captcha_success=json_decode($verify);
+
+if ($captcha_success->success==false) {
+	echo "<p>Please confirm you are not a bot by checking the reCAPTCHA checkbox below.</p>";
+} else {
+
 foreach($_POST as $label => $value) {
 	$label = ucwords($label);
 
@@ -92,4 +111,5 @@ try {
 
 if ($debug == 0) {
 	echo json_encode($arrResult);
+}
 }
