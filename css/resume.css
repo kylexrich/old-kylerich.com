@@ -485,6 +485,9 @@ section.section {
 .custom-social-icons li.social-icons-email a {
 	background: #1490df;
 }
+.custom-social-icons li.social-icons-github a {
+	background: #24292e;
+}
 .custom-social-icons li.social-icons-twitter a {
 	background: #1aa9e1;
 }
