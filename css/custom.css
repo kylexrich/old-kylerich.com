@@ -2,7 +2,7 @@
 
 /* for text beside about-me photo */
 .about-me-title-text {
-    padding-top: 8%
+    padding-top: 8%;
 }
 
 /* for personal details */
@@ -31,7 +31,7 @@
 }
 
 /*//////////// custom styles for education ////////////*/
-.button-margin{
+.button-margin {
     margin-top: 10px;
 }
 
@@ -45,14 +45,14 @@ html .btn-outline.btn-primary:hover, html .btn-outline.btn-primary.hover {
 
 
 /*//////////// custom styles for contact ////////////*/
-.contact-bg-x{
+.contact-bg-x {
     background: url(/img/contact/contact-bg.jpg) !important;
     background-size: cover !important;
 }
 
 /*//////////// custom styles for portfolio ////////////*/
 
-.portfolio-content-pos{
+.portfolio-content-pos {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -61,11 +61,10 @@ html .btn-outline.btn-primary:hover, html .btn-outline.btn-primary.hover {
 /*//////////// custom styles for skills////////////*/
 
 .skills .skills-container {
-border-radius: 6px;
-overflow: hidden;
-box-shadow: 0 5px 5px 0 rgba(233, 240, 243, .5), 0 0 0 1px #e6ecf8 !important;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, .5), 0 0 0 1px #e6ecf8 !important;
 }
-
 
 .skills .skill-container {
     background: #fff;
@@ -88,8 +87,8 @@ box-shadow: 0 5px 5px 0 rgba(233, 240, 243, .5), 0 0 0 1px #e6ecf8 !important;
 }
 
 .skills .skill-container ul {
-    list-style: none;
-    padding-left: 0;
+    list-style: none !important;
+    padding-left: 0 !important;
 }
 
 @media (min-width:768px) {
