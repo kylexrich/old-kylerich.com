@@ -15,7 +15,7 @@ require 'php-mailer/src/SMTP.php';
 require 'php-mailer/src/Exception.php';
 
 // Step 1 - Enter your email address below.
-$email = 'kylerich7@hotmail.com';
+$email = 'kyledvrich@gmail.com';
 
 // If the e-mail is not working, change the debug option to 2 | $debug = 2;
 $debug = 0;
@@ -49,8 +49,8 @@ foreach($_POST as $label => $value) {
 
 	// Use the commented code below to change label texts. On this example will change "Email" to "Email Address"
 
-	// if( $label == 'Email' ) {               
-	// 	$label = 'Email Address';              
+	// if( $label == 'Email' ) {
+	// 	$label = 'Email Address';
 	// }
 
 	// Checkboxes
@@ -71,18 +71,18 @@ try {
 	// Step 2 (Optional) - If you don't receive the email, try to configure the parameters below:
 
 	$mail->IsSMTP();                                         // Set mailer to use SMTP
-	$mail->Host = 'smtp.live.com';				       // Specify main and backup server
+	$mail->Host = 'smtp.gmail.com';				       // Specify main and backup server
 	$mail->SMTPAuth = true;                                  // Enable SMTP authentication
-	$mail->Username = 'kylerich7@hotmail.com';                    // SMTP username
-	$mail->Password = 'vxpxzhqnxicilein';                              // SMTP password
+	$mail->Username = 'kyledvrich@gmail.com';                    // SMTP username
+	$mail->Password = '!Haquhey77';                              // SMTP password
 	$mail->SMTPSecure = 'tls';                               // Enable encryption, 'ssl' also accepted
 	$mail->Port = 587;   								       // TCP port to connect to
 
 	$mail->AddAddress($email);	 						       // Add another recipient
 
 	//$mail->AddAddress('person2@domain.com', 'Person 2');     // Add a secondary recipient
-	//$mail->AddCC('person3@domain.com', 'Person 3');          // Add a "Cc" address. 
-	//$mail->AddBCC('person4@domain.com', 'Person 4');         // Add a "Bcc" address. 
+	//$mail->AddCC('person3@domain.com', 'Person 3');          // Add a "Cc" address.
+	//$mail->AddBCC('person4@domain.com', 'Person 4');         // Add a "Bcc" address.
 
 	// From - Name
 	$fromName = ( isset($_POST['name']) ) ? $_POST['name'] : 'Website User';
